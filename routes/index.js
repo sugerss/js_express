@@ -36,8 +36,6 @@ router.post('/replace',function(req,res){
 		res.send('success')
 	})
 })
-
-
 router.post('/delete',function(req,res){
 	res.header("Access-Control-Allow-Origin", "*");
 	var id=req.body['id'];
